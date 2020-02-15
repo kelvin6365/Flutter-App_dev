@@ -69,7 +69,7 @@ class _MenuDashboardPageState extends State<MenuDashboardPage>
         Tween<double>(begin: 0.5, end: 1).animate(_controller);
     _slideAnimation = Tween<Offset>(begin: Offset(-1, 0), end: Offset(0, 0))
         .animate(_controller);
-      _getIPAddress();
+    _getIPAddress();
   }
 
   @override

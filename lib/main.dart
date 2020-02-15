@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/LeftMenu/menu_layout.dart';
+import 'package:myapp/AnimationMenu/menu_layout_2.dart';
+//import 'package:myapp/LeftMenu/menu_layout.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -18,9 +19,13 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
+        
+        scaffoldBackgroundColor: Colors.white,
+        primaryColor: Colors.white,
+        //primarySwatch: Colors.blue,
       ),
-      home: MenuDashboardPage(),
+      //home: MenuDashboardPage(),
+      home: SlidebarLayout(),
     );
   }
 }
