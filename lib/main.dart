@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/AnimationMenu/menu_layout_2.dart';
+import 'package:myapp/SplashScreen/main_layout.dart';
 //import 'package:myapp/LeftMenu/menu_layout.dart';
 void main() => runApp(MyApp());
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         //primarySwatch: Colors.blue,
       ),
       //home: MenuDashboardPage(),
-      home: SlidebarLayout(),
+      home: SplashScreenLayout(),
     );
   }
 }

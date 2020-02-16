@@ -1,6 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:myapp/Pages/homepage.dart';
 import 'package:myapp/Pages/myinfopage.dart';
+import 'package:myapp/SplashScreen/splash_screen.dart';
 
 enum NavigationEvents {
   HomePageClickedEvent,
